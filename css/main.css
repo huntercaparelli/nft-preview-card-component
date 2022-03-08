@@ -5,6 +5,13 @@
   --font-family: "Outfit", sans-serif;
 }
 
+.bg-blue {
+  background-image: url(./../images/image-equilibrium.jpg);
+  background-color: var(--softblue);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 /* Decent Defaults */
 img,
 video {
@@ -26,4 +33,7 @@ video {
 
 /* Desktop Only Styles */
 @media (min-width: 1440px) {
+  .bg-blue {
+    background-image: url(./../images/image-equilibrium.jpg);
+  }
 }
