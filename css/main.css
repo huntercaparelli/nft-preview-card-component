@@ -1,7 +1,29 @@
-/* Decent Defaults */
+/* Custom Properties */
+:root {
+  --softblue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --font-family: "Outfit", sans-serif;
+}
 
+/* Decent Defaults */
 img,
 video {
   width: 100%;
   height: auto;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Mobile Only Styles */
+@media (min-width: 375px) {
+}
+
+/* Desktop Only Styles */
+@media (min-width: 1440px) {
 }
